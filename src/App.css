@@ -1,0 +1,116 @@
+.page-container {
+  padding: 20px;
+}
+
+/* Table styling */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #ddd;
+}
+
+/* Set fixed widths for the columns */
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 10%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 35%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 35%;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 10%;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Form styling */
+
+.add-joke-form {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 2em;
+}
+
+.add-joke-form h2 {
+  margin-top: 0;
+}
+
+.add-joke-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-joke-form input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-joke-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-joke-form button:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+}
